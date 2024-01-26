@@ -5,4 +5,17 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>15a77842-0750-49cf-acb0-357e6c8223cb</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>aa3c3841-30e5-4e19-8841-f213f4b4c83d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Hongkong CURA Healthcare Center'</defaultValue>
+      <description></description>
+      <id>aa3c3841-30e5-4e19-8841-f213f4b4c83d</id>
+      <masked>false</masked>
+      <name>Facility</name>
+   </variable>
 </TestCaseEntity>
