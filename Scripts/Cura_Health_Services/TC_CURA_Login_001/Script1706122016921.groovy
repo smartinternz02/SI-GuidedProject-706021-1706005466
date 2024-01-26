@@ -25,12 +25,13 @@ WebUI.click(findTestObject('Object Repository/TC_CURA_Login_OR_001/Page_CURA Hea
 
 WebUI.click(findTestObject('Object Repository/TC_CURA_Login_OR_001/Page_CURA Healthcare Service/a_Login'))
 
-WebUI.setText(findTestObject('Object Repository/TC_CURA_Login_OR_001/Page_CURA Healthcare Service/input_username'), 'John Doe')
+WebUI.setText(findTestObject('Object Repository/TC_CURA_Login_OR_001/Page_CURA Healthcare Service/input_username'), Username)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/TC_CURA_Login_OR_001/Page_CURA Healthcare Service/input_password'), 
-    'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
+WebUI.setText(findTestObject('Object Repository/TC_CURA_Login_OR_001/Page_CURA Healthcare Service/input_password'), Password)
 
 WebUI.click(findTestObject('Object Repository/TC_CURA_Login_OR_001/Page_CURA Healthcare Service/button_Login'))
+
+WebUI.delay(3)
 
 WebUI.closeBrowser()
 

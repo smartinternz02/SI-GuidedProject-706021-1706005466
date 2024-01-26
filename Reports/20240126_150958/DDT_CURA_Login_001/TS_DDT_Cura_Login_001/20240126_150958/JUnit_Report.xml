@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_DDT_Cura_Login_001" time="57.007" tests="2" failures="0" errors="0">
+   <testsuite name="TS_DDT_Cura_Login_001" tests="2" failures="0" errors="0" time="57.007" skipped="0" timestamp="26-01-2024T15:10:06" hostname="mansurshaik - 10.1.34.37" id="Test Suites/DDT_CURA_Login_001/TS_DDT_Cura_Login_001">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\mansurshaik\\git\\SI-GuidedProject-706021-1706005466\\Reports\\20240126_150958\\DDT_CURA_Login_001\\TS_DDT_Cura_Login_001\\20240126_150958"/>
+         <property name="logFiles" value="C:\\Users\\mansurshaik\\git\\SI-GuidedProject-706021-1706005466\\Reports\\20240126_150958\\DDT_CURA_Login_001\\TS_DDT_Cura_Login_001\\20240126_150958\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="mansurshaik - 10.1.34.37"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="10.1.34.37"/>
+         <property name="sessionId" value="d8f40c06b65756f8b44af08b91cc9fb9"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Cura_Health_Services/TC_CURA_Login_001" time="18.687" classname="Test Cases/Cura_Health_Services/TC_CURA_Login_001" status="PASSED">
+         <system-out><![CDATA[26-01-2024T15:10:07 - [TEST_CASE][PASSED] - Test Cases/Cura_Health_Services/TC_CURA_Login_001: Test Cases/Cura_Health_Services/TC_CURA_Login_001
+
+26-01-2024T15:10:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-01-2024T15:10:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-01-2024T15:10:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-01-2024T15:10:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-01-2024T15:10:11 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+26-01-2024T15:10:16 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+26-01-2024T15:10:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_CURA_Login_OR_001/Page_CURA Healthcare Service/i_fa fa-bars")): Object: 'Object Repository/TC_CURA_Login_OR_001/Page_CURA Healthcare Service/i_fa fa-bars' is clicked on
+
+26-01-2024T15:10:17 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_CURA_Login_OR_001/Page_CURA Healthcare Service/i_fa fa-bars' is clicked on
+
+26-01-2024T15:10:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_CURA_Login_OR_001/Page_CURA Healthcare Service/a_Login")): Object: 'Object Repository/TC_CURA_Login_OR_001/Page_CURA Healthcare Service/a_Login' is clicked on
+
+26-01-2024T15:10:18 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_CURA_Login_OR_001/Page_CURA Healthcare Service/a_Login' is clicked on
+
+26-01-2024T15:10:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC_CURA_Login_OR_001/Page_CURA Healthcare Service/input_username"), Username): Text 'John Doe' is set on object 'Object Repository/TC_CURA_Login_OR_001/Page_CURA Healthcare Service/input_username'
+
+26-01-2024T15:10:19 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/TC_CURA_Login_OR_001/Page_CURA Healthcare Service/input_username'
+
+26-01-2024T15:10:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC_CURA_Login_OR_001/Page_CURA Healthcare Service/input_password"), Password): Text 'ThisIsNotAPassword' is set on object 'Object Repository/TC_CURA_Login_OR_001/Page_CURA Healthcare Service/input_password'
+
+26-01-2024T15:10:20 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/TC_CURA_Login_OR_001/Page_CURA Healthcare Service/input_password'
+
+26-01-2024T15:10:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_CURA_Login_OR_001/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/TC_CURA_Login_OR_001/Page_CURA Healthcare Service/button_Login' is clicked on
+
+26-01-2024T15:10:22 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_CURA_Login_OR_001/Page_CURA Healthcare Service/button_Login' is clicked on
+
+26-01-2024T15:10:22 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+26-01-2024T15:10:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+26-01-2024T15:10:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+26-01-2024T15:10:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Cura_Health_Services/TC_CURA_Login_001" time="37.814" classname="Test Cases/Cura_Health_Services/TC_CURA_Login_001" status="PASSED">
+         <system-out><![CDATA[26-01-2024T15:10:26 - [TEST_CASE][PASSED] - Test Cases/Cura_Health_Services/TC_CURA_Login_001: Test Cases/Cura_Health_Services/TC_CURA_Login_001
+
+26-01-2024T15:10:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-01-2024T15:10:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-01-2024T15:10:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-01-2024T15:10:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-01-2024T15:10:27 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+26-01-2024T15:10:55 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+26-01-2024T15:10:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_CURA_Login_OR_001/Page_CURA Healthcare Service/i_fa fa-bars")): Object: 'Object Repository/TC_CURA_Login_OR_001/Page_CURA Healthcare Service/i_fa fa-bars' is clicked on
+
+26-01-2024T15:10:55 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_CURA_Login_OR_001/Page_CURA Healthcare Service/i_fa fa-bars' is clicked on
+
+26-01-2024T15:10:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_CURA_Login_OR_001/Page_CURA Healthcare Service/a_Login")): Object: 'Object Repository/TC_CURA_Login_OR_001/Page_CURA Healthcare Service/a_Login' is clicked on
+
+26-01-2024T15:10:57 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_CURA_Login_OR_001/Page_CURA Healthcare Service/a_Login' is clicked on
+
+26-01-2024T15:10:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC_CURA_Login_OR_001/Page_CURA Healthcare Service/input_username"), Username): Text 'John Doe' is set on object 'Object Repository/TC_CURA_Login_OR_001/Page_CURA Healthcare Service/input_username'
+
+26-01-2024T15:10:58 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/TC_CURA_Login_OR_001/Page_CURA Healthcare Service/input_username'
+
+26-01-2024T15:10:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC_CURA_Login_OR_001/Page_CURA Healthcare Service/input_password"), Password): Text 'thisisnotapassword' is set on object 'Object Repository/TC_CURA_Login_OR_001/Page_CURA Healthcare Service/input_password'
+
+26-01-2024T15:10:59 - [MESSAGE][PASSED] - Text 'thisisnotapassword' is set on object 'Object Repository/TC_CURA_Login_OR_001/Page_CURA Healthcare Service/input_password'
+
+26-01-2024T15:10:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_CURA_Login_OR_001/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/TC_CURA_Login_OR_001/Page_CURA Healthcare Service/button_Login' is clicked on
+
+26-01-2024T15:11:00 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_CURA_Login_OR_001/Page_CURA Healthcare Service/button_Login' is clicked on
+
+26-01-2024T15:11:00 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+26-01-2024T15:11:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+26-01-2024T15:11:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+26-01-2024T15:11:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[26-01-2024T15:10:06 - [TEST_SUITE][PASSED] - TS_DDT_Cura_Login_001: Test Cases/Cura_Health_Services/TC_CURA_Login_001]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
