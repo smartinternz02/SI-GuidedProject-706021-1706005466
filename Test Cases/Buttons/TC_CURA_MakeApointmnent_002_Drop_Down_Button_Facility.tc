@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC_CURA_MakeApointmnent_Drop_Down_Button_Facility_002</name>
+   <name>TC_CURA_MakeApointmnent_002_Drop_Down_Button_Facility</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>15a77842-0750-49cf-acb0-357e6c8223cb</testCaseGuid>
