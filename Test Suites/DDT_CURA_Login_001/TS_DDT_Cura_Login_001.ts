@@ -15,7 +15,7 @@
       <guid>893e95e7-7e65-4de8-9f89-e0896a033c19</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Cura_Health_Services/TC_CURA_Login_001</testCaseId>
+      <testCaseId>Test Cases/TC_Cura_Login_Validation_001/TC_CURA_Login_001</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>0389ace7-1bfe-484e-ba4e-db273c6e7630</id>
