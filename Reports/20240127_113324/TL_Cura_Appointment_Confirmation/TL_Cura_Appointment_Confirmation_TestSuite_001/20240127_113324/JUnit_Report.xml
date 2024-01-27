@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TL_Cura_Appointment_Confirmation_TestSuite_001" time="32.944" tests="1" failures="0" errors="0">
+   <testsuite name="TL_Cura_Appointment_Confirmation_TestSuite_001" tests="1" failures="0" errors="0" time="32.944" skipped="0" timestamp="27-01-2024T11:33:28" hostname="mansurshaik - 10.1.34.37" id="Test Suites/TL_Cura_Appointment_Confirmation/TL_Cura_Appointment_Confirmation_TestSuite_001">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\mansurshaik\\git\\SI-GuidedProject-706021-1706005466\\Reports\\20240127_113324\\TL_Cura_Appointment_Confirmation\\TL_Cura_Appointment_Confirmation_TestSuite_001\\20240127_113324"/>
+         <property name="logFiles" value="C:\\Users\\mansurshaik\\git\\SI-GuidedProject-706021-1706005466\\Reports\\20240127_113324\\TL_Cura_Appointment_Confirmation\\TL_Cura_Appointment_Confirmation_TestSuite_001\\20240127_113324\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="mansurshaik - 10.1.34.37"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="10.1.34.37"/>
+         <property name="sessionId" value="f0a1fed1fc3048404039a430b2e691ca"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TC_TL_Appointmnet_Confirmation_001/TL_Appointment_Confirmation" time="12.41" classname="Test Cases/TC_TL_Appointmnet_Confirmation_001/TL_Appointment_Confirmation" status="PASSED">
+         <system-out><![CDATA[27-01-2024T11:33:49 - [TEST_CASE][PASSED] - Test Cases/TC_TL_Appointmnet_Confirmation_001/TL_Appointment_Confirmation: Test Cases/TC_TL_Appointmnet_Confirmation_001/TL_Appointment_Confirmation
+
+27-01-2024T11:33:49 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Object: 'Object Repository/TL_Cura_Appointment_Confirmation_001/Page_CURA Healthcare Service/button_Login' is clicked on
+
+27-01-2024T11:33:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TL_Cura_Appointment_Confirmation_001/Page_CURA Healthcare Service/input_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/TL_Cura_Appointment_Confirmation_001/Page_CURA Healthcare Service/input_username'
+
+27-01-2024T11:33:50 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/TL_Cura_Appointment_Confirmation_001/Page_CURA Healthcare Service/input_username'
+
+27-01-2024T11:33:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TL_Cura_Appointment_Confirmation_001/Page_CURA Healthcare Service/input_password"), "ThisIsNotAPassword"): Text 'ThisIsNotAPassword' is set on object 'Object Repository/TL_Cura_Appointment_Confirmation_001/Page_CURA Healthcare Service/input_password'
+
+27-01-2024T11:33:50 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/TL_Cura_Appointment_Confirmation_001/Page_CURA Healthcare Service/input_password'
+
+27-01-2024T11:33:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TL_Cura_Appointment_Confirmation_001/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/TL_Cura_Appointment_Confirmation_001/Page_CURA Healthcare Service/button_Login' is clicked on
+
+27-01-2024T11:33:54 - [MESSAGE][PASSED] - Object: 'Object Repository/TL_Cura_Appointment_Confirmation_001/Page_CURA Healthcare Service/button_Login' is clicked on
+
+27-01-2024T11:33:54 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/TL_Cura_Appointment_Confirmation_001/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107"), "Seoul CURA Healthcare Center", true): All options with value 'Seoul CURA Healthcare Center' are selected in object 'Object Repository/TL_Cura_Appointment_Confirmation_001/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+27-01-2024T11:33:55 - [MESSAGE][PASSED] - All options with value 'Seoul CURA Healthcare Center' are selected in object 'Object Repository/TL_Cura_Appointment_Confirmation_001/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+27-01-2024T11:33:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TL_Cura_Appointment_Confirmation_001/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar")): Object: 'Object Repository/TL_Cura_Appointment_Confirmation_001/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar' is clicked on
+
+27-01-2024T11:33:56 - [MESSAGE][PASSED] - Object: 'Object Repository/TL_Cura_Appointment_Confirmation_001/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar' is clicked on
+
+27-01-2024T11:33:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TL_Cura_Appointment_Confirmation_001/Page_CURA Healthcare Service/td_18")): Object: 'Object Repository/TL_Cura_Appointment_Confirmation_001/Page_CURA Healthcare Service/td_18' is clicked on
+
+27-01-2024T11:33:56 - [MESSAGE][PASSED] - Object: 'Object Repository/TL_Cura_Appointment_Confirmation_001/Page_CURA Healthcare Service/td_18' is clicked on
+
+27-01-2024T11:33:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TL_Cura_Appointment_Confirmation_001/Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/TL_Cura_Appointment_Confirmation_001/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+27-01-2024T11:33:58 - [MESSAGE][PASSED] - Object: 'Object Repository/TL_Cura_Appointment_Confirmation_001/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+27-01-2024T11:33:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TL_Cura_Appointment_Confirmation_001/Page_CURA Healthcare Service/h2_Appointment Confirmation")): Object: 'Object Repository/TL_Cura_Appointment_Confirmation_001/Page_CURA Healthcare Service/h2_Appointment Confirmation' is clicked on
+
+27-01-2024T11:33:58 - [MESSAGE][PASSED] - Object: 'Object Repository/TL_Cura_Appointment_Confirmation_001/Page_CURA Healthcare Service/h2_Appointment Confirmation' is clicked on
+
+27-01-2024T11:33:58 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Object: 'Object Repository/TL_Cura_Appointment_Confirmation_001/Page_CURA Healthcare Service/a_Logout' is clicked on
+
+27-01-2024T11:33:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TL_Cura_Appointment_Confirmation_001/Page_CURA Healthcare Service/i_fa fa-bars")): Object: 'Object Repository/TL_Cura_Appointment_Confirmation_001/Page_CURA Healthcare Service/i_fa fa-bars' is clicked on
+
+27-01-2024T11:33:59 - [MESSAGE][PASSED] - Object: 'Object Repository/TL_Cura_Appointment_Confirmation_001/Page_CURA Healthcare Service/i_fa fa-bars' is clicked on
+
+27-01-2024T11:33:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TL_Cura_Appointment_Confirmation_001/Page_CURA Healthcare Service/a_Logout")): Object: 'Object Repository/TL_Cura_Appointment_Confirmation_001/Page_CURA Healthcare Service/a_Logout' is clicked on
+
+27-01-2024T11:34:01 - [MESSAGE][PASSED] - Object: 'Object Repository/TL_Cura_Appointment_Confirmation_001/Page_CURA Healthcare Service/a_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[27-01-2024T11:33:28 - [TEST_SUITE][PASSED] - TL_Cura_Appointment_Confirmation_TestSuite_001: Test Cases/TC_TL_Appointmnet_Confirmation_001/TL_Appointment_Confirmation]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
