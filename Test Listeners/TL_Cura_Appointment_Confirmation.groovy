@@ -69,6 +69,6 @@ class TL_Cura_Appointment_Confirmation {
 	 
 	@AfterTestSuite
 	//def sampleAfterTestSuite(TestSuiteContext testSuiteContext) {
-		//println testSuiteContext.getTestSuiteId()
+		// println testSuiteContext.getTestSuiteId()
 	}**/
 }
