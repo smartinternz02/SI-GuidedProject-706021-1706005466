@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Buttons_Cura_CheckBox,Chrome 120.0.0.0,,,29-01-2024 15:27:43,29-01-2024 15:29:48,2m - 5.349s,PASSED
+,,,,,,,
+Test Cases/Buttons/TC_CURA_MakeAppointment_002_Check_Box_,Chrome 120.0.0.0,,,29-01-2024 15:27:51,29-01-2024 15:29:48,1m - 57.073s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,29-01-2024 15:27:51,29-01-2024 15:27:54,2.929s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,29-01-2024 15:27:54,29-01-2024 15:28:29,34.715s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,29-01-2024 15:28:29,29-01-2024 15:29:03,34.803s,ERROR
+"check(findTestObject(""Object Repository/TC_CURA_MakeAppointment_002_Check_Box/Page_CURA Healthcare Service/input_hospital_readmission""))",Chrome 120.0.0.0,,,29-01-2024 15:29:04,29-01-2024 15:29:04,0.511s,PASSED
+"click(findTestObject(""Object Repository/TC_CURA_MakeAppointment_002_Check_Box/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar""))",Chrome 120.0.0.0,,,29-01-2024 15:29:04,29-01-2024 15:29:05,0.496s,PASSED
+"click(findTestObject(""Object Repository/TC_CURA_MakeAppointment_002_Check_Box/Page_CURA Healthcare Service/td_22""))",Chrome 120.0.0.0,,,29-01-2024 15:29:05,29-01-2024 15:29:05,0.592s,PASSED
+"click(findTestObject(""Object Repository/TC_CURA_MakeAppointment_002_Check_Box/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 120.0.0.0,,,29-01-2024 15:29:05,29-01-2024 15:29:07,2.045s,PASSED
+"click(findTestObject(""Object Repository/TC_CURA_MakeAppointment_002_Check_Box/Page_CURA Healthcare Service/h2_Appointment Confirmation""))",Chrome 120.0.0.0,,,29-01-2024 15:29:07,29-01-2024 15:29:08,0.513s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,29-01-2024 15:29:08,29-01-2024 15:29:09,1.678s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,29-01-2024 15:29:09,29-01-2024 15:29:45,35.549s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,29-01-2024 15:29:45,29-01-2024 15:29:48,3.067s,PASSED
