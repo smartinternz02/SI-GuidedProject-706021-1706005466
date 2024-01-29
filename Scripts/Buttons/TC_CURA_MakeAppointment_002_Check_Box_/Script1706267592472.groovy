@@ -17,21 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+//WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+//WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
-WebUI.click(findTestObject('Object Repository/TC_CURA_MakeAppointment_002_Check_Box/Page_CURA Healthcare Service/amenu-toggle'))
+//WebUI.click(findTestObject('Object Repository/TC_CURA_MakeAppointment_002_Check_Box/Page_CURA Healthcare Service/amenu-toggle'))
 
-WebUI.click(findTestObject('Object Repository/TC_CURA_MakeAppointment_002_Check_Box/Page_CURA Healthcare Service/a_Login'))
+//WebUI.click(findTestObject('Object Repository/TC_CURA_MakeAppointment_002_Check_Box/Page_CURA Healthcare Service/a_Login'))
 
-WebUI.setText(findTestObject('Object Repository/TC_CURA_MakeAppointment_002_Check_Box/Page_CURA Healthcare Service/input_username'), 
-    'John Doe')
+//WebUI.setText(findTestObject('Object Repository/TC_CURA_MakeAppointment_002_Check_Box/Page_CURA Healthcare Service/input_username'), 'John Doe')
 
-WebUI.setText(findTestObject('Object Repository/TC_CURA_MakeAppointment_002_Check_Box/Page_CURA Healthcare Service/input_password'), 
-    'ThisIsNotAPassword')
+//WebUI.setText(findTestObject('Object Repository/TC_CURA_MakeAppointment_002_Check_Box/Page_CURA Healthcare Service/input_password'), 'ThisIsNotAPassword')
 
-WebUI.click(findTestObject('Object Repository/TC_CURA_MakeAppointment_002_Check_Box/Page_CURA Healthcare Service/button_Login'))
+//WebUI.click(findTestObject('Object Repository/TC_CURA_MakeAppointment_002_Check_Box/Page_CURA Healthcare Service/button_Login'))
 
 WebUI.check(findTestObject('Object Repository/TC_CURA_MakeAppointment_002_Check_Box/Page_CURA Healthcare Service/input_hospital_readmission'))
 
@@ -43,7 +41,7 @@ WebUI.click(findTestObject('Object Repository/TC_CURA_MakeAppointment_002_Check_
 
 WebUI.click(findTestObject('Object Repository/TC_CURA_MakeAppointment_002_Check_Box/Page_CURA Healthcare Service/h2_Appointment Confirmation'))
 
-WebUI.click(findTestObject('Object Repository/TC_CURA_MakeAppointment_002_Check_Box/Page_CURA Healthcare Service/a_Go to Homepage'))
+//WebUI.click(findTestObject('Object Repository/TC_CURA_MakeAppointment_002_Check_Box/Page_CURA Healthcare Service/a_Go to Homepage'))
 
-WebUI.closeBrowser()
+//WebUI.closeBrowser()
 
