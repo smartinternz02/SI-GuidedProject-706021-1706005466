@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Cura_Appointment_Jenkins_001,Chrome 120.0.0.0,,,30-01-2024 17:28:58,30-01-2024 17:32:17,3m - 19.029s,PASSED
+,,,,,,,
+Test Cases/TC_Cura_Make_Appointment_Jenkins_CLI_001/TC_Cura_Appointment_Jenkins_CLI_001,Chrome 120.0.0.0,,,30-01-2024 17:29:08,30-01-2024 17:32:17,3m - 8.116s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,30-01-2024 17:29:09,30-01-2024 17:29:13,3.994s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,30-01-2024 17:29:13,30-01-2024 17:29:47,34.832s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,30-01-2024 17:29:47,30-01-2024 17:30:22,34.567s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,30-01-2024 17:30:22,30-01-2024 17:30:57,34.675s,ERROR
+"click(findTestObject(""Object Repository/Sample_Make_Appointment_KRE_001/Page_CURA Healthcare Service/label_Apply for hospital readmission""))",Chrome 120.0.0.0,,,30-01-2024 17:30:57,30-01-2024 17:30:57,0.413s,PASSED
+"click(findTestObject(""Object Repository/Sample_Make_Appointment_KRE_001/Page_CURA Healthcare Service/label_Medicaid""))",Chrome 120.0.0.0,,,30-01-2024 17:30:57,30-01-2024 17:30:58,0.436s,PASSED
+"click(findTestObject(""Object Repository/Sample_Make_Appointment_KRE_001/Page_CURA Healthcare Service/input_visit_date""))",Chrome 120.0.0.0,,,30-01-2024 17:30:58,30-01-2024 17:30:58,0.516s,PASSED
+"click(findTestObject(""Object Repository/Sample_Make_Appointment_KRE_001/Page_CURA Healthcare Service/td_30""))",Chrome 120.0.0.0,,,30-01-2024 17:30:58,30-01-2024 17:30:59,0.572s,PASSED
+"click(findTestObject(""Object Repository/Sample_Make_Appointment_KRE_001/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 120.0.0.0,,,30-01-2024 17:30:59,30-01-2024 17:31:01,1.908s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,30-01-2024 17:31:01,30-01-2024 17:31:02,1.705s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,30-01-2024 17:31:02,30-01-2024 17:31:38,35.763s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,30-01-2024 17:31:38,30-01-2024 17:32:14,35.534s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,30-01-2024 17:32:14,30-01-2024 17:32:17,3.033s,PASSED
