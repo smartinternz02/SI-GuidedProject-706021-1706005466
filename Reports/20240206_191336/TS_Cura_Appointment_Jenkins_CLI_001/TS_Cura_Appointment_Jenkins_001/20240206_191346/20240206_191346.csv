@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Cura_Appointment_Jenkins_001,Chrome 121.0.0.0,,,06-02-2024 19:13:52,06-02-2024 19:15:34,1m - 41.983s,FAILED
+,,,,,,,
+Test Cases/TC_Cura_Make_Appointment_Jenkins_CLI_001/TC_Cura_Appointment_Jenkins_CLI_001,Chrome 121.0.0.0,,,06-02-2024 19:14:11,06-02-2024 19:15:34,1m - 23.091s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,06-02-2024 19:14:11,06-02-2024 19:14:14,2.948s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,06-02-2024 19:14:14,06-02-2024 19:14:49,34.956s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,06-02-2024 19:14:49,06-02-2024 19:15:23,34.573s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,06-02-2024 19:15:23,06-02-2024 19:15:30,6.859s,ERROR
+"click(findTestObject(""Object Repository/Sample_Make_Appointment_KRE_001/Page_CURA Healthcare Service/label_Apply for hospital readmission""))",Chrome 121.0.0.0,,,06-02-2024 19:15:30,06-02-2024 19:15:30,0.138s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,06-02-2024 19:15:30,06-02-2024 19:15:30,0.130s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,06-02-2024 19:15:30,06-02-2024 19:15:31,0.141s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,06-02-2024 19:15:31,06-02-2024 19:15:31,0.135s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,06-02-2024 19:15:31,06-02-2024 19:15:34,3.039s,PASSED
